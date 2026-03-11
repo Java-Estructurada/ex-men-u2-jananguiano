@@ -6,7 +6,7 @@ private static final double
 DESC_HOTEL_NINO = 0.30;
 private static final double
 DESC_PORC_COM = 0.12;
-public static void main (straing [ ] args ) {
+public static void main (Straing [ ] args ) { 
     scanner sc =new scanner (system.in);
     System.out.print ("Cotizador de viajes express");
     System.out.print ("Adultos:");
@@ -24,7 +24,8 @@ public static void main (straing [ ] args ) {
     double subtotal = costovuelos + costoHotel;
     double comision = subtotal + PORC_COMISION;
     double totalGlobal = subtotal + comision;
-    
+ 
+
 
 
 }
